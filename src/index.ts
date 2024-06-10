@@ -6,6 +6,7 @@ import 'dotenv/config';
 
 import MyUserRoute from './routes/MyUserRoute';
 import MyRestaurantRoute from './routes/MyRestaurantRoute';
+import RestaurantRoute from './routes/RestaurantRoute';
 
 mongoose
   .connect(process.env.MONGO_CONNECTION_STRING as string)
@@ -27,6 +28,7 @@ app.get('/health', async (req: Request, res: Response) => {
 
 app.use('/api/my/user', MyUserRoute);
 app.use('/api/my/restaurant', MyRestaurantRoute);
+app.use('/api/restaurant', RestaurantRoute);
 app.listen(7000, () => {
   console.log('server started on localhost:7000');
 });
