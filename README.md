@@ -16,4 +16,4 @@ In order for back end support to function, the following where inplmented:
 # Other Resources
 
 - [Compass GUI for MongoDB](https://www.mongodb.com/products/tools/compass)
-- [How to set up docker loally for MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-community-with-docker/)
+- [How to set up docker locally for MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-community-with-docker/)
